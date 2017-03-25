@@ -3,3 +3,5 @@ rust:
   - nightly
 sudo: required
 cache: cargo
+script:
+  - cargo test --all
